@@ -12,47 +12,15 @@
     "published": true,
     "title": "",
     "description": "",
-    "before": null,
-    "after": null
+    "before": "./photos/reccvPCnWjpWtLGFJ-before.jpeg",
+    "after": "./photos/reccvPCnWjpWtLGFJ-after.jpeg"
   },
   {
     "order": 2,
     "published": true,
     "title": "",
     "description": "",
-    "before": null,
-    "after": null
-  },
-  {
-    "order": 3,
-    "published": true,
-    "title": "",
-    "description": "",
-    "before": null,
-    "after": null
-  },
-  {
-    "order": 4,
-    "published": true,
-    "title": "",
-    "description": "",
-    "before": null,
-    "after": null
-  },
-  {
-    "order": 5,
-    "published": true,
-    "title": "",
-    "description": "",
-    "before": null,
-    "after": null
-  },
-  {
-    "order": 6,
-    "published": true,
-    "title": "",
-    "description": "",
-    "before": null,
-    "after": null
+    "before": "./photos/recoMYjSVZbC1AxLU-before.jpeg",
+    "after": "./photos/recoMYjSVZbC1AxLU-after.jpeg"
   }
 ]
