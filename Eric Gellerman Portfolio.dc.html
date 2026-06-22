@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; }
+  *, *::before, *::after { box-sizing:border-box; }
+</style>
+</helmet>
+
+<div style="--accent:{{ accent }};font-family:'Work Sans',Helvetica,Arial,sans-serif;background:#ffffff;color:#1a1a1a;min-height:100vh;-webkit-font-smoothing:antialiased;">
+
+  <header style="position:sticky;top:0;z-index:20;background:rgba(255,255,255,0.94);backdrop-filter:blur(10px);border-bottom:1px solid #ededed;">
+    <div style="max-width:1240px;margin:0 auto;padding:16px 48px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;">
+      <div style="display:flex;align-items:center;gap:16px;">
+        <img src="./red-oak-logo.avif" alt="Red Oak Realty" style="width:54px;height:54px;border-radius:50%;display:block;flex:none;" />
+        <div style="display:flex;flex-direction:column;gap:6px;">
+          <div style="font-family:'Jost',sans-serif;font-size:24px;font-weight:600;letter-spacing:0.01em;line-height:1;">Eric Gellerman</div>
+          <div style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:#777;font-weight:500;display:flex;align-items:center;gap:9px;flex-wrap:wrap;">
+            <span style="color:var(--accent,#e5241e);font-weight:600;">REALTOR®</span>
+            <span style="width:3px;height:3px;border-radius:50%;background:#cfcfcf;"></span>
+            <span>DRE# 02198966</span>
+            <span style="width:3px;height:3px;border-radius:50%;background:#cfcfcf;"></span>
+            <span>1575 Hopkins St, Berkeley, CA 94707</span>
+          </div>
+        </div>
+      </div>
+      <nav style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;">
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#9a9a9a;font-weight:500;">Cell</span>
+          <a href="tel:+15105012516" style="font-size:14px;color:#1a1a1a;text-decoration:none;font-weight:500;">(510) 501-2516</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px;">
+          <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#9a9a9a;font-weight:500;">Email</span>
+          <a href="mailto:eric@redoakrealty.com" style="font-size:14px;color:#1a1a1a;text-decoration:none;font-weight:500;">eric@redoakrealty.com</a>
+        </div>
+        <a href="#about" style="font-family:'Jost',sans-serif;font-size:12px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:#ffffff;background:var(--accent,#e5241e);padding:12px 22px;border-radius:2px;text-decoration:none;">About Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <section style="max-width:1240px;margin:0 auto;padding:80px 48px 44px;">
+    <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:0.26em;text-transform:uppercase;color:var(--accent,#e5241e);font-weight:600;margin-bottom:20px;">Eric Gellerman · Red Oak Realty</div>
+    <h1 style="font-family:'Jost',sans-serif;font-size:60px;font-weight:600;letter-spacing:-0.01em;line-height:1.02;margin:0 0 18px;max-width:16ch;">Before &amp; After</h1>
+    <p style="font-size:17px;line-height:1.6;color:#5a5a5a;max-width:58ch;margin:0;">With an extensive network of tradespeople and 25+ years transforming spaces, Eric often works magic for his listing clients on a limited budget — preparing homes that show beautifully and sell faster.</p>
+  </section>
+
+  <section style="max-width:1240px;margin:0 auto;padding:16px 48px 100px;display:flex;flex-direction:column;gap:96px;">
+
+    <sc-for list="{{ entries }}" as="entry" hint-placeholder-count="3">
+      <article style="display:flex;flex-direction:column;gap:24px;">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+          <div style="position:relative;">
+            <sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><span style="position:absolute;top:16px;left:16px;z-index:2;font-family:'Jost',sans-serif;font-size:12px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:#fff;background:#1a1a1a;padding:8px 15px;border-radius:2px;">Before</span></sc-if>
+            <img src="{{ entry.before }}" alt="Before" style="width:100%;height:auto;display:block;border-radius:2px;" />
+          </div>
+          <div style="position:relative;">
+            <sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><span style="position:absolute;top:16px;left:16px;z-index:2;font-family:'Jost',sans-serif;font-size:12px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;color:#fff;background:var(--accent,#e5241e);padding:8px 15px;border-radius:2px;">After</span></sc-if>
+            <img src="{{ entry.after }}" alt="After" style="width:100%;height:auto;display:block;border-radius:2px;" />
+          </div>
+        </div>
+        <div style="max-width:68ch;">
+          <h3 style="font-family:'Jost',sans-serif;font-size:23px;font-weight:600;letter-spacing:-0.005em;margin:0 0 8px;">{{ entry.title }}</h3>
+          <p style="font-size:16px;line-height:1.65;color:#555;margin:0;">{{ entry.description }}</p>
+        </div>
+      </article>
+    </sc-for>
+
+  </section>
+
+  <section id="about" style="background:#f6f5f2;border-top:1px solid #ececec;">
+    <div style="max-width:1240px;margin:0 auto;padding:84px 48px;display:grid;grid-template-columns:300px 1fr;gap:60px;align-items:start;">
+      <img src="./photos/eg-about-portrait.webp" alt="Eric Gellerman" style="width:300px;height:auto;display:block;border-radius:3px;" />
+      <div>
+        <div style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:0.26em;text-transform:uppercase;color:var(--accent,#e5241e);font-weight:600;margin-bottom:18px;">Get to Know Me</div>
+        <h2 style="font-family:'Jost',sans-serif;font-size:38px;font-weight:600;letter-spacing:-0.01em;line-height:1.08;margin:0 0 20px;">Eric Gellerman</h2>
+        <p style="font-size:16px;line-height:1.7;color:#444;max-width:62ch;margin:0 0 16px;">A fourth-generation Bay Area resident and founder of the Republic of Berkeley community, Eric brings a rare design background to real estate. For over 25 years he transformed spaces at The Wooden Duck Furniture Company; today he's a full-time REALTOR® with deep roots across Berkeley, Albany, and El Cerrito.</p>
+        <p style="font-size:16px;line-height:1.7;color:#444;max-width:62ch;margin:0 0 32px;">With his extensive network of tradespeople and local contacts, he often works magic for his listing clients on a limited budget — guiding everything from targeted renovations to full staging so homes show their very best.</p>
+        <div style="display:flex;gap:48px;flex-wrap:wrap;margin-bottom:34px;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:30px;font-weight:600;color:var(--accent,#e5241e);line-height:1;">25+</span>
+            <span style="font-size:13px;color:#777;">years transforming spaces</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:30px;font-weight:600;color:var(--accent,#e5241e);line-height:1;">10k</span>
+            <span style="font-size:13px;color:#777;">newsletter subscribers</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:30px;font-weight:600;color:var(--accent,#e5241e);line-height:1;">13k</span>
+            <span style="font-size:13px;color:#777;">Republic of Berkeley members</span>
+          </div>
+        </div>
+        <div style="display:flex;gap:40px;flex-wrap:wrap;padding-top:28px;border-top:1px solid #e2e0db;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#999;font-weight:500;">Cell</span>
+            <a href="tel:+15105012516" style="font-size:15px;color:#1a1a1a;text-decoration:none;font-weight:500;">(510) 501-2516</a>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#999;font-weight:500;">Email</span>
+            <a href="mailto:eric@redoakrealty.com" style="font-size:15px;color:#1a1a1a;text-decoration:none;font-weight:500;">eric@redoakrealty.com</a>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#999;font-weight:500;">License</span>
+            <span style="font-size:15px;color:#1a1a1a;font-weight:500;">DRE# 02198966</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#999;font-weight:500;">Office</span>
+            <span style="font-size:15px;color:#1a1a1a;font-weight:500;">1575 Hopkins St, Berkeley, CA 94707</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background:#1a1a1a;color:#fff;">
+    <div style="max-width:1240px;margin:0 auto;padding:30px 48px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;">
+      <div style="display:flex;align-items:center;gap:13px;">
+        <img src="./red-oak-logo.avif" alt="Red Oak Realty" style="width:34px;height:34px;border-radius:50%;display:block;" />
+        <span style="font-family:'Jost',sans-serif;font-size:14px;font-weight:500;letter-spacing:0.02em;">Eric Gellerman · Red Oak Realty</span>
+      </div>
+      <span style="font-size:13px;color:#9a9a9a;">(510) 501-2516 · eric@redoakrealty.com · DRE# 02198966</span>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;accent&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#e5241e&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;showLabels&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot; }
+}">
+class Component extends DCLogic {
+  state = { entries: [] };
+
+  async componentDidMount() {
+    try {
+      const mod = await import('./portfolio-data.js');
+      const list = (await mod.loadEntries())
+        .filter((e) => e.published !== false)
+        .sort((a, b) => (a.order || 0) - (b.order || 0));
+      this.setState({ entries: list });
+    } catch (err) {
+      console.error('Could not load portfolio entries:', err);
+    }
+  }
+
+  renderVals() {
+    return {
+      accent: this.props.accent ?? '#e5241e',
+      showLabels: this.props.showLabels ?? true,
+      entries: this.state.entries,
+    };
+  }
+}
+</script>
+</body>
+</html>
