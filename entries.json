@@ -2,33 +2,57 @@
   {
     "order": 0,
     "published": true,
-    "title": "Living Room — Clear, Refresh & Stage",
-    "description": "A cluttered, dated living room was cleared out, repainted, and stripped back to refinished hardwood floors. Clean-lined staging and styling let the big picture window — and the light it brings in — become the room's standout feature.",
-    "before": "./photos/rec7dsekbXUOv8qpM-before.jpeg",
-    "after": "./photos/rec7dsekbXUOv8qpM-after.jpeg"
+    "title": "This is an example",
+    "description": "Hello hello hello",
+    "before": "./photos/recYHqlgW16jW5HFC-before.heic",
+    "after": "./photos/recYHqlgW16jW5HFC-after.heic"
   },
   {
     "order": 1,
     "published": true,
-    "title": "Kitchen — Cabinets & Counters",
-    "description": "Worn oak cabinetry, tile counters, and vintage linoleum gave way to white shaker cabinets, quartz countertops, a new stainless dishwasher, and refinished hardwood — a brighter, current kitchen that reads move-in ready.",
-    "before": "./photos/recGGe5OeQ3wTsL0K-before.jpeg",
-    "after": "./photos/recGGe5OeQ3wTsL0K-after.jpeg"
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
   },
   {
     "order": 2,
     "published": true,
-    "title": "Test test",
-    "description": "blah blah blahb lahbakskjadawd",
-    "before": "./photos/rec98LCwQUb8IO9Vz-before.jpeg",
-    "after": "./photos/rec98LCwQUb8IO9Vz-after.jpeg"
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
   },
   {
     "order": 3,
     "published": true,
-    "title": "This is a new post",
-    "description": "Testawdsd awd asd asf dsfadfsdf sdfsdf",
-    "before": "./photos/recN2223bBdgb2d5D-before.png",
-    "after": "./photos/recN2223bBdgb2d5D-after.png"
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
+  },
+  {
+    "order": 4,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
+  },
+  {
+    "order": 5,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
+  },
+  {
+    "order": 6,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
   }
 ]
