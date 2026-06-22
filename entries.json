@@ -1,5 +1,237 @@
 [
   {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": "./photos/rec2lQsfAfFCjrNMS-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Sometimes you do nothing... except clean and stage",
+    "description": "Nothing changed in this room except cleaning and staging.  Sometimes you just do it the old fashioned way!",
+    "before": "./photos/rec40dvMxaAyPqhp0-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Laundry room... simplified",
+    "description": "My clients opted to replace their old water heater for an external on demand and the old washer and dryer had to for staging so we just put in house signs up indicating where the washer/ dryer would go for a clean look.  ",
+    "before": "./photos/rec6D8L8o1v61gsAY-before.jpeg",
+    "after": "./photos/rec6D8L8o1v61gsAY-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Thinking outside the box....",
+    "description": "Instead of hauling dirt away (expensive) make planter boxes to store the dirt!",
+    "before": "./photos/rec7EFY6VkE6MYysi-before.jpeg",
+    "after": "./photos/rec7EFY6VkE6MYysi-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Mantles are important",
+    "description": "Even though we don't use fireplaces for fire you have to make them stand out somehow.",
+    "before": null,
+    "after": "./photos/rec908RdSwVwrtC1p-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Sometimes you have to make hard choices...",
+    "description": "I loved the hippie beads but the bathroom need a custom door! ",
+    "before": "./photos/recDEJSuTBhYr85Ok-before.jpeg",
+    "after": "./photos/recDEJSuTBhYr85Ok-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Seems like you're always doing something with window coverings...",
+    "description": "Seems like people that need window coverings don't have them and people who have awesome views cover up their windows!",
+    "before": "./photos/recDXMSHQPY8rUDOj-before.jpeg",
+    "after": "./photos/recDXMSHQPY8rUDOj-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Pick the right photographer",
+    "description": "I wasn't thrilled out this leaded glass set of wings but honestly all we did was stage the house (we did't even paint) and the photographer found the angle that brought these back to life. ",
+    "before": null,
+    "after": "./photos/recGau4MH3cFrwnzm-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recHdYClv56SX7cSX-before.jpeg",
+    "after": "./photos/recHdYClv56SX7cSX-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recMnCUytigpatNR5-before.jpeg",
+    "after": "./photos/recMnCUytigpatNR5-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recOHYr2xSWaPdhA6-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Sometimes the budget is small... ",
+    "description": "So you just have to make due with what you have and spruce it up....",
+    "before": "./photos/recRwkIBSBlFLstmi-before.jpeg",
+    "after": "./photos/recRwkIBSBlFLstmi-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recS20wQPjwSYfDr1-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recTbzYobPW8T2yZN-before.jpeg",
+    "after": "./photos/recTbzYobPW8T2yZN-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recWRVLTwI3iUQyHz-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": "./photos/reca8TfrLFZNmrXXx-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Every house can you paint... ",
+    "description": "Even if the colors aren't bad even a few years of life makes the walls look dirty...",
+    "before": "./photos/reccoyuo4T0whSYmo-before.jpeg",
+    "after": "./photos/reccoyuo4T0whSYmo-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recdRcIzuyZaXn4lf-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": null,
+    "after": "./photos/receKl6aAOZXM0i0g-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/reci0jRSyjRiszDaT-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "Ikea kitchen?  Sure.",
+    "description": "The idea wasn't to sub out the kitchen it was to just paint the cabinets but the clients opted to do an Ikea kitchen at the last minute after the floors and painting were done and it turned out pretty good. ",
+    "before": null,
+    "after": "./photos/reciFhHUr4CGXbHuT-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "How can I make this work?",
+    "description": "Where I'm standing in the first picture was an old shed that needed to come down.  After 50 years of adding soil the yard was so elevated we had to make planter boxes to move all the dirt!",
+    "before": "./photos/recjLJQxu4zHj0jK4-before.jpeg",
+    "after": "./photos/recjLJQxu4zHj0jK4-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/reck5hISQj8EZ9if9-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/reckHywGSCA7Rq9td-before.jpeg",
+    "after": "./photos/reckHywGSCA7Rq9td-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/reckreKuabwKI4O1R-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "When replacing a fence isn't in the budget...",
+    "description": "Make it disappear with a color that blends in... After you fix the surrounding area and add some Home Depot flowers your eye no longer is centered on the worn out fence.",
+    "before": "./photos/recmShqNrc1StXjsx-before.jpeg",
+    "after": "./photos/recmShqNrc1StXjsx-after.jpeg"
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recrAxguriw0jiXyV-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 0,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recta0luEnU6NShCx-before.jpeg",
+    "after": null
+  },
+  {
     "order": 1,
     "published": true,
     "title": "Living Room makeover",
@@ -78,5 +310,149 @@
     "description": "New dishwasher, counter, painted cabinets, new hardwood floor.",
     "before": "./photos/rectGfc5Mx64VH58t-before.jpeg",
     "after": "./photos/rectGfc5Mx64VH58t-after.jpeg"
+  },
+  {
+    "order": 11,
+    "published": true,
+    "title": "Reorganization",
+    "description": "Declutter and replumb for stackable.",
+    "before": "./photos/rectD42UgP0zcXtvL-before.jpeg",
+    "after": "./photos/rectD42UgP0zcXtvL-after.jpeg"
+  },
+  {
+    "order": 12,
+    "published": true,
+    "title": "Simplify",
+    "description": "New lighting.  Ceiling repair.  Repaint",
+    "before": "./photos/recAH0i17NoztDB54-before.jpeg",
+    "after": "./photos/recAH0i17NoztDB54-after.jpeg"
+  },
+  {
+    "order": 13,
+    "published": true,
+    "title": "Closet doors",
+    "description": "Shorten and widen closet doors.  Replace the doors with standard size.",
+    "before": "./photos/recZL3Tp0bYPOb2MA-before.jpeg",
+    "after": "./photos/recZL3Tp0bYPOb2MA-after.jpeg"
+  },
+  {
+    "order": 14,
+    "published": true,
+    "title": "Color",
+    "description": "Sometime you have to tame a color to appeal to the masses",
+    "before": "./photos/recwpj0gt6onks4JL-before.jpeg",
+    "after": "./photos/recwpj0gt6onks4JL-after.jpeg"
+  },
+  {
+    "order": 15,
+    "published": true,
+    "title": "Editing",
+    "description": "Editing out what's not needed.",
+    "before": "./photos/recnQuxT127L3otHR-before.jpeg",
+    "after": "./photos/recnQuxT127L3otHR-after.jpeg"
+  },
+  {
+    "order": 16,
+    "published": true,
+    "title": "Tell a story",
+    "description": "If it was an artist space make it look like one.  Just cleaner.",
+    "before": "./photos/reczCfEz3DyO6xsDc-before.jpeg",
+    "after": "./photos/reczCfEz3DyO6xsDc-after.jpeg"
+  },
+  {
+    "order": 17,
+    "published": true,
+    "title": "Use what you have... ",
+    "description": "If you have great floors under those carpets sand them and hightlight them.",
+    "before": "./photos/recvAKUk46cmODoHQ-before.jpeg",
+    "after": "./photos/recvAKUk46cmODoHQ-after.jpeg"
+  },
+  {
+    "order": 18,
+    "published": true,
+    "title": "Don't think you need to replace everything",
+    "description": "Most times old cabinets and appliances are just fine.  You just need to fix what's around them.",
+    "before": "./photos/recHlK5V3iKNwsTf3-before.jpeg",
+    "after": "./photos/recHlK5V3iKNwsTf3-after.jpeg"
+  },
+  {
+    "order": 19,
+    "published": true,
+    "title": "Make it feel turn key...",
+    "description": "Young buyers want to see things that they can imagine themselves in next week.  They don't want to do all the work before they move in (unless they are in market for a fixer!).",
+    "before": "./photos/recqjttJJdOQXB7vk-before.jpeg",
+    "after": "./photos/recqjttJJdOQXB7vk-after.jpeg"
+  },
+  {
+    "order": 20,
+    "published": true,
+    "title": "Keep the appliances simple",
+    "description": "If you have to replace appliances just go simple.  ",
+    "before": "./photos/recSZkfPFjaUeaRoy-before.jpeg",
+    "after": "./photos/recSZkfPFjaUeaRoy-after.jpeg"
+  },
+  {
+    "order": 21,
+    "published": true,
+    "title": "Water early and often",
+    "description": "As soon as you get the listing start planting and watering.  Save and prune what plants are there.  ",
+    "before": "./photos/recImthrUD62AI2fd-before.jpeg",
+    "after": "./photos/recImthrUD62AI2fd-after.jpeg"
+  },
+  {
+    "order": 22,
+    "published": true,
+    "title": "Tame the jungle",
+    "description": "Most yards are overgrown.  Make it look like the gardener just came that day.",
+    "before": "./photos/recv3FDLHTJKXZ2Vh-before.jpeg",
+    "after": "./photos/recv3FDLHTJKXZ2Vh-after.jpeg"
+  },
+  {
+    "order": 23,
+    "published": true,
+    "title": "Obviously it's daunting",
+    "description": "Declutter, sand the floors, cover the floors, paint, fix and the details and stage.  Break these things into little bits.",
+    "before": "./photos/rec6Xuvdk0GHi5lBG-before.jpeg",
+    "after": "./photos/rec6Xuvdk0GHi5lBG-after.jpeg"
+  },
+  {
+    "order": 24,
+    "published": true,
+    "title": "More light... always",
+    "description": "In this case more light meant replacing a worn out back door with a normal 4 light door from Home Depot.  ",
+    "before": "./photos/recXgPs7qfzVQ7bZM-before.jpeg",
+    "after": "./photos/recXgPs7qfzVQ7bZM-after.jpeg"
+  },
+  {
+    "order": 25,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recmEJmcot4RCDHX2-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 26,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recObQRvV08CM8WQi-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 27,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/recMV57wyByZMmLYr-before.jpeg",
+    "after": null
+  },
+  {
+    "order": 28,
+    "published": true,
+    "title": "",
+    "description": "",
+    "before": "./photos/rectrM0eRIcPsTjeS-before.jpeg",
+    "after": null
   }
 ]
