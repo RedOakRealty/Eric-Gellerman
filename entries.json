@@ -4,8 +4,8 @@
     "published": true,
     "title": "This is an example",
     "description": "Hello hello hello",
-    "before": "./photos/recYHqlgW16jW5HFC-before.heic",
-    "after": "./photos/recYHqlgW16jW5HFC-after.heic"
+    "before": "./photos/recYHqlgW16jW5HFC-before.jpeg",
+    "after": "./photos/recYHqlgW16jW5HFC-after.jpeg"
   },
   {
     "order": 1,
