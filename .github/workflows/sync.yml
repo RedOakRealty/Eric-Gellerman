@@ -1,0 +1,54 @@
+name: Sync Airtable → site
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"    # every 6 hours (~120 API calls/month — well under the free cap)
+  workflow_dispatch: {}        # adds a manual "Run workflow" button
+  push:
+    branches: [main]           # redeploy when the site CODE changes…
+    paths-ignore:              # …but not when the bot commits generated files
+      - "entries.json"
+      - "photos/**"
+      - "index.html"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: airtable-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Publish the page as index.html
+        run: cp "Eric Gellerman Portfolio.dc.html" index.html
+
+      - name: Pull entries + photos from Airtable
+        continue-on-error: true        # site still deploys (with fallback entries) if this fails
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          AIRTABLE_BASE: ${{ secrets.AIRTABLE_BASE }}
+          AIRTABLE_TABLE: Entries
+        run: node airtable-sync.mjs
+
+      - name: Commit & push if anything changed
+        run: |
+          git config user.name "airtable-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "Sync from Airtable [skip ci]"
+            git push
+          fi
