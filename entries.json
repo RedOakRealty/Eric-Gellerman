@@ -1,26 +1,82 @@
 [
   {
-    "order": 0,
+    "order": 1,
     "published": true,
-    "title": "This is an example",
-    "description": "Hello hello hello",
+    "title": "Living Room makeover",
+    "description": "Clean up, paint and stage",
     "before": "./photos/recYHqlgW16jW5HFC-before.jpeg",
     "after": "./photos/recYHqlgW16jW5HFC-after.jpeg"
   },
   {
-    "order": 1,
+    "order": 2,
     "published": true,
-    "title": "",
-    "description": "",
+    "title": "Kitchen reorganization",
+    "description": "New floors, paint appliances, kitchen",
     "before": "./photos/reccvPCnWjpWtLGFJ-before.jpeg",
     "after": "./photos/reccvPCnWjpWtLGFJ-after.jpeg"
   },
   {
-    "order": 2,
+    "order": 3,
     "published": true,
-    "title": "",
-    "description": "",
+    "title": "Kitchen Update",
+    "description": "New floor, painted cabinets, new appliances, paint, counter and backsplash",
     "before": "./photos/recoMYjSVZbC1AxLU-before.jpeg",
     "after": "./photos/recoMYjSVZbC1AxLU-after.jpeg"
+  },
+  {
+    "order": 4,
+    "published": true,
+    "title": "Office makeover",
+    "description": "New floors, paint, lighting, staging",
+    "before": "./photos/recirjW1HRMZVW399-before.jpeg",
+    "after": "./photos/recirjW1HRMZVW399-after.jpeg"
+  },
+  {
+    "order": 5,
+    "published": true,
+    "title": "Front yard makeover",
+    "description": "New fence, planter boxes, watering system",
+    "before": "./photos/recf4xDI9vY8qMeI7-before.jpeg",
+    "after": "./photos/recf4xDI9vY8qMeI7-after.jpeg"
+  },
+  {
+    "order": 6,
+    "published": true,
+    "title": "Living room makeover",
+    "description": "Refinished floors hidden under carpet, paint, staging.",
+    "before": "./photos/reczl0sRq99Ebtyp0-before.jpeg",
+    "after": "./photos/reczl0sRq99Ebtyp0-after.jpeg"
+  },
+  {
+    "order": 7,
+    "published": true,
+    "title": "Cord clean up and paint",
+    "description": "Sometimes you just have to remove what's not necessary anymore!",
+    "before": "./photos/rec3kDDdIWQpOAuY5-before.jpeg",
+    "after": "./photos/rec3kDDdIWQpOAuY5-after.jpeg"
+  },
+  {
+    "order": 8,
+    "published": true,
+    "title": "Staging and paint",
+    "description": "Floors were great so just lightened it up and staged.",
+    "before": "./photos/recZ1znCw8oRodyPA-before.jpeg",
+    "after": "./photos/recZ1znCw8oRodyPA-after.jpeg"
+  },
+  {
+    "order": 9,
+    "published": true,
+    "title": "Bathroom remodel",
+    "description": "New vanity, tile, floors, lighting",
+    "before": "./photos/recW3H4Nb1ZAaoEw0-before.jpeg",
+    "after": "./photos/recW3H4Nb1ZAaoEw0-after.jpeg"
+  },
+  {
+    "order": 10,
+    "published": true,
+    "title": "Modernize",
+    "description": "New dishwasher, counter, painted cabinets, new hardwood floor.",
+    "before": "./photos/rectGfc5Mx64VH58t-before.jpeg",
+    "after": "./photos/rectGfc5Mx64VH58t-after.jpeg"
   }
 ]
