@@ -23,12 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Publish the page as index.html
         run: cp "Eric Gellerman Portfolio.dc.html" index.html
@@ -49,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to publish."
           else
-            git commit -m "Sync from Airtable [skip ci]"
+            git commit -m "Sync from Airtable"
             git push
           fi
